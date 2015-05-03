@@ -1,0 +1,66 @@
+.subtitle {
+  display: block;
+  padding-left: 10px;
+  
+  color: #F0F8FC;
+  text-shadow: 1px 1px #13346c;
+}
+
+.subtitle-area {
+  padding-bottom: 5px;
+}
+
+.player-content {
+  position: relative;
+  top: -8.5em;
+  padding: 5px 10px;
+  margin: 0 15px;
+  background: #395e6b;
+  opacity: 0.8;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.text-music-title {
+  color: #fff;
+  text-shadow: 1px 1px #389990;
+  font-size: 1.3em;
+}
+
+.player {
+  padding: 0;
+  margin: 0 auto;
+  
+  max-width: 800px;
+  width: 100%;
+}
+
+.background {
+  max-width: 800px;
+  width: 100%;
+}
+
+body {
+  background: #111;
+}
+
+iframe {
+  display: none;
+}
+
+button, a {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  padding: 3px;
+  vertical-align: middle;
+  border: 1px solid  #fff;
+  background-color: #195a68;
+  color: #fff;
+  font-size: 1.0em;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: #619ca6;
+}
